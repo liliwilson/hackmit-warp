@@ -61,7 +61,7 @@ readonly BACKGROUND_LIGHT_GREEN="\033[102m"
 readonly BACKGROUND_LIGHT_RED="\033[101m"
 # Hack the North background image
 readonly HACK_MIT_IMAGE_NAME="hack_mit_2024_warp_bg.png"
-readonly HACK_MIT_IMAGE_PATH="https://hackmit.org/${HACK_MIT_IMAGE_NAME}"
+readonly HACK_MIT_IMAGE_PATH="https://github.com/liliwilson/hackmit-warp-theme/blob/39eb85a5a058a72fbc9906ca9e74e6c1ee9a6a43/hack_mit_2024_warp_bg.png?raw=true"
 curl "https://hackmit.org/hack_mit_2024_warp_bg.png" --output "${WARP_THEME_DIR}/${HACK_THE_NORTH_IMAGE_NAME}"
 printf "${GREEN_BOLD}✓${RESET} ${BOLD}Installing theme:${RESET}${DIM} ${THEME_NAME}${RESET}\n"
 # Check if WARP_THEME_DIR exists
